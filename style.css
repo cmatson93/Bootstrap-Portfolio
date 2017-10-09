@@ -1,0 +1,147 @@
+/*Give header a background color and correct sizing and position*/
+h1 {
+	background-color: teal;
+	display: inline;
+	padding: 10px;
+}
+
+.navbar {
+	border-bottom: 3px solid #cccccc;
+	/*background-image: linear-gradient( #fff, #ccc );*/
+	z-index: 100;
+}
+
+
+/*Trying to change graident*/
+/*.navbar:before {
+	background-image: linear-gradient( #fff, #ccc );
+	opacity: 0;
+	z-index: -100;
+	transition:opacity 0.45s;
+}
+
+.navbar:hover; {
+	&before {
+		opacity: 1;
+	}
+}*/
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: white;
+}
+
+/*Give Nav links a push towards the cent*/
+.nav {
+	padding-right: 150px;
+}
+
+/*Change color of links*/
+a {
+	color: #777777;
+}
+
+/*Change color of links to black when hovered over*/
+a:hover {
+	color: black;
+}
+
+/*Make headers teal color*/
+h2,
+h3 {
+	color: #4aaaa5;
+}
+
+h4 {
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 15px;
+	width: 100%;
+	/*margin: 30px 0 0 -21px;*/
+}
+
+
+/*change paragraph text color*/
+p {
+	color: #777777;
+}
+
+/*Make images have a padding around them */
+.img {
+	padding: 10px;
+}
+
+/*Main Section attributes*/
+.main-section {
+	background: white;
+	padding: 40px;
+}
+
+/*get main section background to change ____ when mouse hovers over it*/
+.main-section:hover {
+}
+
+.sidebar {
+	/*background: white;*/
+	height: 100%;
+	/*padding-left: 40px;*/
+	text-align: center; /*CAN NOT GET THE TEXT TO ALIGN IN THE CENTER!!*/
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: bold;
+	justify-content: center;
+}
+
+
+
+.card-title {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+#contact-header {
+	color: #4aaaa5;
+	background-color: white;
+}
+
+.form {
+	padding: 20px;
+}
+
+.media-links {
+	margin-right: -20px;
+}
+
+/*Add a padding to the container so the nav bar is not right on top of container content*/
+.container-fluid {
+	padding: 100px 0px 50px 0px;
+	background-image: url("assets/images/cork-wallet.png");
+}
+
+
+/*Make some padding for my images on portfolio page*/
+.left-col {
+	margin-left: 10px;
+}
+.right-col {
+	margin-left: 10px;
+}
+
+.top-row {
+	margin-bottom: 30px;
+}
+.mid-row {
+	margin-bottom: 39px;
+}
+
+/*footer atrributes*/
+footer {
+	background-color: #666666;
+	height: 80px;
+	border-top: 6px solid #4aaaa5;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+

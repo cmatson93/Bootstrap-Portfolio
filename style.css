@@ -129,6 +129,10 @@ p {
 	background-color: #666666;
 }
 
+.mb-0 {
+	margin-bottom: 20px;
+}
+
 /*footer atrributes*/
 footer {
 	background-color: #666666;

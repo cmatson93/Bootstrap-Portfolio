@@ -1,35 +1,15 @@
 /*Give header a background color and correct sizing and position*/
-h1 {
-	background-color: teal;
-	display: inline;
-	padding: 10px;
-}
 
 .navbar {
 	border-bottom: 3px solid #cccccc;
-	/*background-image: linear-gradient( #fff, #ccc );*/
 	z-index: 100;
 }
 
 
-/*Trying to change graident*/
-/*.navbar:before {
-	background-image: linear-gradient( #fff, #ccc );
-	opacity: 0;
-	z-index: -100;
-	transition:opacity 0.45s;
-}
-
-.navbar:hover; {
-	&before {
-		opacity: 1;
-	}
-}*/
-
 .navbar-brand {
 	background-color: #4aaaa5;
 	padding: 10px;
-	color: white;
+
 }
 
 /*Give Nav links a push towards the cent*/
@@ -37,11 +17,9 @@ h1 {
 	padding-right: 150px;
 }
 
-/*Change color of links*/
 a {
 	color: #777777;
 }
-
 /*Change color of links to black when hovered over*/
 a:hover {
 	color: black;
@@ -51,6 +29,7 @@ a:hover {
 h2,
 h3 {
 	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h4 {
@@ -58,7 +37,6 @@ h4 {
 	text-align: center;
 	padding: 15px;
 	width: 100%;
-	/*margin: 30px 0 0 -21px;*/
 }
 
 
@@ -78,9 +56,6 @@ p {
 	padding: 40px;
 }
 
-/*get main section background to change ____ when mouse hovers over it*/
-.main-section:hover {
-}
 
 .sidebar {
 	/*background: white;*/
@@ -98,6 +73,7 @@ p {
 .card-title {
 	background-color: #4aaaa5;
 	color: white;
+	border-bottom: 1px solid #eee;
 }
 
 #contact-header {
@@ -111,7 +87,15 @@ p {
 
 .media-links {
 	margin-right: -20px;
+	padding-bottom: 20px;
 }
+
+/*Make media links bigger when hovered over*/
+/*.media-links:hover {
+	width: 52px;
+	height: 52px;
+	overflow: visible;
+}*/
 
 /*Add a padding to the container so the nav bar is not right on top of container content*/
 .container-fluid {
@@ -133,6 +117,16 @@ p {
 }
 .mid-row {
 	margin-bottom: 39px;
+}
+
+/*Change button color */
+.btn {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+}
+
+.btn:hover {
+	background-color: #666666;
 }
 
 /*footer atrributes*/

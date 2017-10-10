@@ -1,8 +1,12 @@
 /*Give header a background color and correct sizing and position*/
 h1 {
-	background-color: teal;
+	background-color: black;
 	display: inline;
 	padding: 10px;
+}
+
+.navbar-brand {
+	color:white;
 }
 
 /*Give Nav bar properties*/
@@ -37,6 +41,3 @@ a:hover {
 }
 
 
-/*.about-me {
-	padding: 10px;
-}*/
